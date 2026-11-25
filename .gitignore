@@ -1,0 +1,27 @@
+# Geheimnisse und lokale Konfiguration
+.env
+.env.*
+!.env.example
+
+# Private Testdaten (FIT-Dateien) – niemals ins Repo
+testdata/
+
+# Lokale Datenbank
+backend/data/
+*.db
+*.sqlite3
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node / Frontend (weitere Einträge in frontend/.gitignore)
+node_modules/
+
+# Editor / Betriebssystem
+.idea/
+.DS_Store
+Thumbs.db
